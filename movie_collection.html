@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Collection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #2c0f0f, #4b1e1e);
+            color: #fff;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #ff6f00;
+            text-shadow: 2px 2px 8px #ff4500;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #1c1c1c;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.6);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: linear-gradient(to right, #ff4500, #ff6f00);
+            color: #fff;
+        }
+
+        th, td {
+            padding: 16px;
+            border: 1px solid #ff6f00;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+
+        tbody tr:hover {
+            background-color: #ff6347;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            color: #ffa07a;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 My Movie Collection 🔥</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Directed By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Coolie</td><td>Action</td><td>1983</td><td>Manmohan Desai</td></tr>
+            <tr><td>Mad Max</td><td>Post-apocalyptic</td><td>1979</td><td>George Miller</td></tr>
+            <tr><td>Tron</td><td>Sci-Fi</td><td>1982</td><td>Steven Lisberger</td></tr>
+            <tr><td>Avatar</td><td>Fantasy</td><td>2009</td><td>James Cameron</td></tr>
+            <tr><td>Seven</td><td>Thriller</td><td>1995</td><td>David Fincher</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
